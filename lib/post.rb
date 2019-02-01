@@ -1,9 +1,12 @@
+require 'pry'
 class Post
 attr_accessor :author, :title
+
 @@all = []
 
 def initialize(title)
   @title = title
+  @author = author
   @@all << self
 end
 
@@ -12,11 +15,13 @@ def self.all
 end
 
 def author_name
-  if self.author == nil
-    return nil
-  else
+if self.author == nil
+   nil
+else
     self.author.name
-  end
+
+end
 end
 
-end #end of post class
+
+end # end of Class

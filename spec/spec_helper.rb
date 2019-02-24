@@ -1,7 +1,21 @@
+require 'pry'
 require_relative "../lib/artist.rb"
 require_relative "../lib/song.rb"
 require_relative "../lib/author.rb"
 require_relative "../lib/post.rb"
+
+# # artist
+# adele = Artist.new("Adele")
+# ani = Artist.new("Ani")
+# knaan = Artist.new("Knaan")
+#
+# # song
+# hello = Song.new("Hello", "Adele")
+# plastic_castle = Song.new("Plastic Castle", "Ani")
+# flavors = Song.new("32 Flavors")
+# smile = Song.new("Smile", "Knaan")
+#
+#
 
 # binding.pry
 
